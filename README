@@ -1,0 +1,10 @@
+The code returns whether the given graph(in the form of adjacency matrix) is a bipartite graph. 
+The algorithm runs with a complexity of n^n. Focus was only in implementing the algorithm first. Efficiency considerations will come in version 1.1.
+Version 1.0 of the code can execute the algorithm for any combination provided in the form of adjacency matrix, but ONLY FOR 9 NODES.
+
+The folder needs the following functions in their independent files for executing. 
+main.c 		//contains the <int main()> and takes the graph as input from in_graph.txt
+randomize.c	//to start with a randomized starting case to ensure the working in a generic case
+print.c		//to print the edited current array at any point in the algo
+in_graph.txt	//contains the adjacency matrix of the input graph
+
